@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav{
+    border: 2px solid yellow;
+    width: 100%;
+    height: 4rem;
+}
+
+header{
+    border: 2px solid red;
+    height: 32rem;
+    width: 100%;
+    /* Set background image */
+  background-image: url('btc crypto.jpg');
+
+  /* Set background image properties */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  /* Optionally, you can set a background color in case the image is not available or doesn't cover the entire background */
+  background-color: #f2f2f2;
+}
